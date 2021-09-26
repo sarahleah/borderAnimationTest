@@ -1,0 +1,25 @@
+body {
+	background-color: #222;
+	color: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	position: relative;
+}
+
+.marker {
+	position: absolute;
+	left: 0;
+	height: 4px;
+	width: 0;
+	background: lightseagreen;
+	bottom: -8px;
+	transition: 1s;
+	border-radius: 4px;
+}
